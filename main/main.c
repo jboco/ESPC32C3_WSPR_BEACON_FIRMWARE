@@ -32,7 +32,7 @@
 #define GPS_UART_NUM        UART_NUM_1
 #define GPS_TX_PIN          21  // ESP32 TX -> GPS RX
 #define GPS_RX_PIN          20  // ESP32 RX -> GPS TX
-#define GPS_PPS_PIN         0   // GPS PPS Signal
+#define GPS_PPS_PIN         10   // GPS PPS Signal
 #define GPS_BAUD_RATE       9600
 
 #define PCF8574_I2C_ADDR    0x20
